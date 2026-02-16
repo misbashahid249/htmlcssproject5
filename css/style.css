@@ -15,8 +15,10 @@ html,body{
     text-transform: uppercase;
     background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #5335cf 100%);
     background-size: 400%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+background-clip: text;
+-webkit-background-clip: text;
+
+-webkit-text-fill-color: transparent;
     animation: animate 10s linear infinite;
 }
 @keyframes animate{
